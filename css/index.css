@@ -1,0 +1,30 @@
+body{
+    padding: 40px 20px 40px 20px; font-family: Arial, Helvetica;
+     background: #fcfcfc;
+}
+header{display: flex;}
+.a{  display: flex; align-items: center; }
+header a{ margin-left: 10px; background: rgba(0, 0, 200, 0.3); border-radius: 3px; display: inline-block;
+    padding: 2px; font-size: x-small; text-decoration: none;}
+header span {
+    display: block; font-size: small; font-weight: lighter;
+}
+.b{ width:70px; height: 70px; border-radius: 100%; background: #666; }
+thead th div { margin-bottom: 10px;}
+tbody{ text-align: left;}
+.c { font-weight: bold; color: dodgerblue; vertical-align: top;}
+.d { font-weight: bold;}
+.e { font-weight:lighter;}
+.div{
+    margin-top: 30px; margin-bottom: 30px; display:grid;
+}
+.f { display: flex; margin:5px; padding: 30px; background: white; 
+    border-radius: 10px; align-items: center; box-shadow: 2px 2px 30px 5px rgba(0, 0, 0, 0.2);}
+.g { height: 100%; font-size: 400%; color: deepskyblue; margin-right: 30px;}
+.h { flex-grow: 1; }
+.i{ font-weight: bold; color: dodgerblue;}
+.j { 
+    display: flex; margin:5px; 
+    padding: 30px; background: #eee; border-radius: 10px; align-items: center;
+}
+.k{ height: 100%; font-size: 400%; color: deepskyblue; margin-right: 30px;}
