@@ -11,11 +11,12 @@ th{
     margin-bottom: 20px;
 }
 
-body{
-    padding: 40px 20px 40px 20px; font-family: Arial, Helvetica;
-     background: #fcfcfc;
+body {
+    padding: 40px 20px 40px 20px;
+    font-family: Arial, Helvetica;
+    background: #fcfcfc;
 }
-header{
+header {
     display: flex; 
 }
 
@@ -86,4 +87,42 @@ footer{
 .footer6{
     font-weight: lighter; font-size: x-small;
 }
+/* Jean claude Sytles */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.about {
+    display: flex;
+    margin-top: 20px;
+}
+
+.about .about-item {
+    width: 50%;
+}
+
+.skills .skill-item {
+    display: flex;
+}
+.about .about-item .items{
+    margin-top: 20px;
+}
+.skills .skill-item .skill-info {
+    margin-left: 15px;
+}
+.skills .skill-item .skill-year {
+    color: rgb(56, 181, 240);
+}
+
+.about .about-item .items .title{
+    color: rgb(80, 152, 235);
+}
+.about .about-item .items .description{
+    color: rgb(158, 158, 158);
+    font-size: 13px;
+}
+
+.about .about-item .items .item{
+    margin-top: 20px;
+}
